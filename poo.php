@@ -23,6 +23,7 @@ class Producto{
 $mesa = new Producto(); 
 
 $mesa->nombre = "Mesa";
+
 $mesa->precio = 500;
 $mesa->disponible = true;
 
@@ -44,3 +45,5 @@ echo "</pre>";
 $mesa->mostrarNombreProducto();
 $silla->mostrarNombreProducto();
 $mesa->mostrarPrecioProducto();
+
+?>
