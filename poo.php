@@ -23,12 +23,9 @@ class Producto{
 $mesa = new Producto(); 
 
 $mesa->nombre = "Mesa";
-
 $mesa->precio = 500;
 $mesa->disponible = true;
-
 $silla = new Producto(); 
-
 $mesa->nombre = "Silla grande";
 $mesa->precio = 100;
 $mesa->disponible = false;
